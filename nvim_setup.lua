@@ -1,0 +1,4 @@
+-- vim.cmd.PlugInstall()
+-- vim.cmd.CocInstall("-sync", "coc-clangd", "coc-go", "coc-html", "coc-css", "coc-tsserver", "coc-pyright", "coc-lua")
+-- vim.cmd.CocUpdate()
+-- vim.cmd.q()

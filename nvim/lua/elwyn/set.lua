@@ -7,7 +7,7 @@ vim.o.relativenumber = true
 vim.o.number = true
 
 vim.opt.swapfile = false
-vim.opt.undodir = os.getenv("HOME") .. "/.vim/undodir"
+vim.opt.undodir = os.getenv("HOME") .. "/.vim/undodir" -- TODO: HOME not defined on windows
 vim.opt.undofile = true
 
 vim.o.termguicolors = true

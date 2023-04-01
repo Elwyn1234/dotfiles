@@ -1,0 +1,2 @@
+$PROFILE is Powershell's startup config.
+~/AppData/Local/nvim/ is where nvim stores config on windows

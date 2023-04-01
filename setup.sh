@@ -11,4 +11,5 @@ fi
 
 rm ~/.config/nvim
 ln -s "${abspath}/nvim" ~/.config/nvim
+ln -s "${abspath}/bashrc" ~/.bashrc
 # nvim -S nvim_setup.lua

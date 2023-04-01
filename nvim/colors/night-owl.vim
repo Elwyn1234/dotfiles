@@ -37,7 +37,9 @@ hi PMenu guibg=#2d2c5d ctermbg=236 gui=NONE cterm=NONE
 hi PMenuSel guibg=#c792ea ctermbg=176 gui=NONE cterm=NONE
 hi Search guifg=#011627 ctermfg=233 guibg=#ecc48d ctermbg=222 gui=NONE cterm=NONE
 hi SpecialKey guifg=#ecc48d ctermfg=222 gui=NONE cterm=NONE
-hi StatusLine guifg=#eeeeee ctermfg=255 guibg=#112630 ctermbg=235 gui=NONE cterm=NONE
+" Manual Change : ctermbg and guibg removed for end for StatusLine
+" hi StatusLine guifg=#eeeeee ctermfg=255 guibg=#112630 ctermbg=235 gui=NONE cterm=NONE
+hi StatusLine guifg=#eeeeee ctermfg=255 gui=NONE cterm=NONE
 hi StatusLineNC guifg=#777777 ctermfg=243 guibg=#112630 ctermbg=235 gui=NONE cterm=NONE
 hi Title guifg=#82aaff ctermfg=111 gui=bold cterm=bold
 hi Visual guifg=#d6deeb ctermfg=253 guibg=#2d2c5d ctermbg=236 gui=NONE cterm=NONE

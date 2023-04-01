@@ -16,5 +16,7 @@ rm ~/.bashrc
 ln -s "${abspath}/bashrc" ~/.bashrc
 rm ~/.config/awesome
 ln -s "${abspath}/awesome" ~/.config/awesome
+rm ~/.config/openbox
+ln -s "${abspath}/openbox" ~/.config/openbox
 rm ~/wallpapers
 ln -s "${abspath}/wallpapers" ~/wallpapers

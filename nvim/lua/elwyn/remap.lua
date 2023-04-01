@@ -5,10 +5,6 @@ vim.keymap.set("n", "<leader>pv", vim.cmd.Ex)
 vim.keymap.set("v", "J", ":m '>+1<CR>gv=gv")
 vim.keymap.set("v", "K", ":m '<-2<CR>gv=gv")
 
--- Centre the cursor's line when jumping with 'n'
-vim.keymap.set("n", "n", "nzzzv")
-vim.keymap.set("n", "N", "Nzzzv")
-
 -- leader p / d deletes the selection to the void register
 vim.keymap.set("v", "<leader>p", '"_dP')
 vim.keymap.set("v", "<leader>d", '"_d')

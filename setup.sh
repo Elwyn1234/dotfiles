@@ -11,8 +11,10 @@ fi
 
 rm ~/.config/nvim
 ln -s "${abspath}/nvim" ~/.config/nvim
+# nvim -S nvim_setup.lua
 rm ~/.bashrc
 ln -s "${abspath}/bashrc" ~/.bashrc
 rm ~/.config/awesome
 ln -s "${abspath}/awesome" ~/.config/awesome
-# nvim -S nvim_setup.lua
+rm ~/wallpapers
+ln -s "${abspath}/wallpapers" ~/wallpapers

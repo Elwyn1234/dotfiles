@@ -1,0 +1,18 @@
+pkg-config
+nodejs (from a PPA)
+helpful keyboard info: man keyboard
+
+
+
+software installed for vulkan
+
+clang
+clang++
+make
+vulkan-tools
+libvulkan-dev
+vulkan-validationlayers-dev
+spirv-tools
+libglfw3-dev
+libglm-dev
+glslc (downloaded from https://github.com/google/shaderc/blob/main/downloads.md and copied install/bin/glslc to /usr/local/bin)

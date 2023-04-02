@@ -1,6 +1,11 @@
 pkg-config
 nodejs (from a PPA)
+
+
+
 helpful keyboard info: man keyboard
+https://unix.stackexchange.com/questions/452391/execute-command-to-swap-caps-lock-and-ctrl-at-startup
+https://wiki.archlinux.org/title/Xorg/Keyboard_configuration
 
 
 

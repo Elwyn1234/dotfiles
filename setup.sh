@@ -14,6 +14,8 @@ ln -s "${abspath}/nvim" ~/.config/nvim
 # nvim -S nvim_setup.lua
 rm ~/.bashrc
 ln -s "${abspath}/bashrc" ~/.bashrc
+rm ~/.profile
+ln -s "${abspath}/profile" ~/.profile
 rm ~/.config/awesome
 ln -s "${abspath}/awesome" ~/.config/awesome
 rm ~/.config/openbox

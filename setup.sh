@@ -9,6 +9,8 @@ if [[ $? != 0 ]]; then
   exit 1
 fi
 
+rm ~/.gitconfig
+ln -s "${abspath}/gitconfig" ~/.gitconfig
 rm ~/.config/nvim
 ln -s "${abspath}/nvim" ~/.config/nvim
 # nvim -S nvim_setup.lua

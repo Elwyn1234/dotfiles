@@ -72,6 +72,7 @@ alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
 
+alias gh=/usr/bin/gh
 alias g='git'
 alias gs='git status'
 alias gl='git log'
